@@ -15,21 +15,30 @@ body:
 
 
       💡
-      Before you go ahead with your request, please first consider if it wouldn't be
-      better suited for a plugin. As a general rule of thumb, any feature that is only
-      of interest to a small sub group should be moved into a plugin. Only such features
-      that are of interest to a majority of OctoPrint's users will be implemented as
-      part of the core itself.
+      Before you go ahead with your request, please first consider if it
+      would be useful for majority of the setuptools users. As a general
+      rule of thumb, any feature that is only of interest to a small sub
+      group should be implemented in a third-party plugin or maybe even
+      just your project alone. Be mindful of the fact that the core
+      setuptools features have a broad impact.
+
 
       <details>
         <summary>
           <center>
 
-          ❗ Every change breaks someone's workflow.
+
+            ❗ Every change breaks someone's workflow.
+
           </center>
         </summary>
 
-        [![❗ Every change breaks someone's workflow.](https://imgs.xkcd.com/comics/workflow.png)](https://xkcd.com/1172/)
+
+        <center>
+
+
+          [![❗ Every change breaks someone's workflow.](https://imgs.xkcd.com/comics/workflow.png)](https://xkcd.com/1172/)
+        </center>
       </details>
 
 
@@ -46,29 +55,49 @@ body:
     description: >-
       What are you trying to do, that you are unable to achieve
       with setuptools as it currently stands?
+    placeholder: >-
+      I'm trying to do X and I'm missing feature Y for this to be
+      easily achievable.
+  validations:
+    required: true
 
 - type: textarea
   attributes:
     label: Describe the solution you'd like
-    description: |
+    description: >
       Clear and concise description of what you want to happen.
 
-      Provide examples of real world use cases that this would enable and how it solves the problem described above.
+
+      Provide examples of real world use cases that this would enable
+      and how it solves the problem described above.
+    placeholder: >-
+      When I do X, I want to achieve Y in a situation when Z.
+  validations:
+    required: true
 
 - type: textarea
   attributes:
     label: Alternative Solutions
-    description: |
-      Have you tried to workaround the problem using pip or other tools? Or a different approach to solving this issue? Please elaborate here.
+    description: >-
+      Have you tried to workaround the problem using other tools? Or a
+      different approach to solving this issue? Please elaborate here.
+    placeholder: >-
+      I tried doing X, Y and Z. But they are subobpimal because of P.
 
 - type: textarea
   attributes:
     label: Additional context
-    description: |
+    description: >
       Add any other context, links, etc. about the feature here.
-      Describe how the feature would be used, why it is needed and what it would solve.
+      Describe how the feature would be used, why it is needed and what
+      it would solve.
 
-      **HINT:** You can paste https://gist.github.com links for larger files.
+
+      **HINT:** You can paste https://gist.github.com links for
+      larger files.
+    placeholder: >-
+      I asked on https://stackoverflow.com/.... and the community
+      advised me to do X, Y and Z.
 
 
 - type: checkboxes
