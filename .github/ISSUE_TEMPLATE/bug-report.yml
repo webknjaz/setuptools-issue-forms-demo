@@ -20,9 +20,11 @@ body:
       Verify first that your issue is not
       [already reported on GitHub][issue search] and keep in mind and
       keep in mind that we may have to keep the current behavior because
-      [every change breaks someone's workflow][XKCD 1172] and we try to
-      be mindful about it.
+      [every change breaks someone's workflow][XKCD 1172].
+      We try to be mindful about this.
+
       Also test if the latest release and main branch are affected too.
+
 
       If you are seeking community support, please consider
       [starting a discussion][Discussions].
