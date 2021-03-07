@@ -25,8 +25,12 @@ body:
       Verify first that your issue is not [already reported on
       GitHub][issue search].
 
+
       If you are seeking community support, please consider
       [starting a discussion][Discussions].
+
+
+      Thank you for your collaboration!
 
 
       [issue search]: https://github.com/pypa/setuptools/search?q=is%3Aissue&type=issues
@@ -41,8 +45,9 @@ body:
       or structure.
 
 
-      **HINT:** Did you know the documentation has an `Edit on GitHub`
-      link on every page?
+      **HINT:** Did you know the documentation has a `View on GitHub`
+      link on every page? Feel free to use it to start a pull request
+      right from the GitHub UI!
     placeholder: >-
       I was reading the setuptools documentation of version X and I'm
       having problems understanding Y. It would be very helpful if that
